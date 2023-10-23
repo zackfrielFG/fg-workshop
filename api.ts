@@ -1,8 +1,6 @@
-import { Product, Schedule, Store } from "./types";
+import { Product } from "./types";
 
-const urlBase = process.env.VERCEL_URL
-  ? "https://" + process.env.VERCEL_URL
-  : "http://localhost:3000";
+const urlBase = "https://frasers-workshop-api.vercel.app";
 
 const api = {
   product: {

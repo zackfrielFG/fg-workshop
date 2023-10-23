@@ -1,7 +1,6 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import type { Product } from "@/types";
 import { useEffect, useState } from "react";
-
 import api from "@/api";
 import Stack from "@/components/Stack";
 import ProductCard from "@/components/ProductCard";
