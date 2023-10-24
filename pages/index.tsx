@@ -22,6 +22,7 @@ const HomePage: NextPage<Props> = ({ products }) => {
     <Grid>
       {products.map((product, index) => (
         <Link key={index} href={`/product/${product.handle}`}>
+          Hello
           <ProductCard product={product} />
         </Link>
       ))}
